@@ -19,6 +19,10 @@ public class Computadora {
         unidadDvd = unidad;
     }
 
+    Computadora(String procesador, int unidad) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public void establecerTipoProcesador(String aut) {
         tipoProcesador = aut;
     }

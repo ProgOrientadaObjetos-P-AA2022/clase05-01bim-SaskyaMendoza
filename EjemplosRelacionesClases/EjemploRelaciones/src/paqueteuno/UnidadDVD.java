@@ -8,9 +8,11 @@ package paqueteuno;
 public class UnidadDVD {
 
     private String marca;
+    private double costo;
 
-    public UnidadDVD(String a) {
+    public UnidadDVD(String a , double c) {
         marca = a;
+        costo = c;
     }
 
     public void establecerMarca(String n) {
@@ -19,5 +21,18 @@ public class UnidadDVD {
 
     public String obtenerMarca() {
         return marca;
+        
     }
+     public void establecerCosto(double c){
+      costo = c;
+     
+     }
+     
+     public double obtenerCosto(){
+     
+      return costo;
+     }
+         
+         
+ 
 }

@@ -12,6 +12,7 @@ package paquete2;
 public class Ciudad {
     
     private String nombre;
+   
     
     public Ciudad(String n){
         nombre = n;

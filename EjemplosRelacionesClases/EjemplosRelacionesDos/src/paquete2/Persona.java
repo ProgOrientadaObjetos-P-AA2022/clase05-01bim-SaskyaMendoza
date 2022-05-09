@@ -20,6 +20,10 @@ public class Persona {
         cedula = ced;
         barrio = b;
     }
+   
+       
+
+    
     
     public void establecerNombre(String n){
         nombre = n;

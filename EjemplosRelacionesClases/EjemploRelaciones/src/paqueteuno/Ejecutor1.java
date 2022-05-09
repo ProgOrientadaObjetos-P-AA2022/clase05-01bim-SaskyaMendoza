@@ -9,7 +9,7 @@ package paqueteuno;
  *
  * @author reroes
  */
-public class Ejecutor {
+public class Ejecutor1 {
 
     public static void main(String[] args) {
         // se crea un de tipo UnidadDVD
@@ -21,10 +21,13 @@ public class Ejecutor {
         
         Computadora computadora = new Computadora(procesador, unidad);
         
+        String variable_marca = computadora.obtenerTipoProcesador();
+        UnidadDVD variable_unidad = computadora.obtenerUnidadDvd();
+        
         System.out.printf("Computadora:\nProcesador: %s\n"
                 + "Unidad de DVD: %s\n",
-                computadora.obtenerTipoProcesador(),
-                computadora.obtenerUnidadDvd().obtenerMarca());
+                variable_marca,
+                variable_unidad.obtenerMarca());
         
         
         UnidadDVD unidad2 = new UnidadDVD(marca);
